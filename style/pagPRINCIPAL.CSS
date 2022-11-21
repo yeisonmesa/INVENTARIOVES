@@ -1,0 +1,120 @@
+
+body{
+
+
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://st2.depositphotos.com/5266903/8141/v/600/depositphotos_81415724-stock-illustration-examination-flat-cyan-and-blue.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:0%;
+    border: 10px ;
+    padding: 25px;
+    height: 100px;
+   }
+
+
+
+
+/* header{
+    width:100%;
+    background: #ffffff;
+
+} */
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+
+    display:none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid rgb(235, 219, 219);
+
+}
+
+header label:hover{
+
+    cursor:pointer;
+    background:  rgba(0, 0, 0, 0.89);
+
+
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+justify-content: flex;
+
+}
+.menu li{
+
+    border-right: 1px solid #fff;
+
+}
+
+
+.menu li:hover{
+
+
+background: rgba(0,0,0,0.3);
+
+}
+
+.menu li a{
+
+    display: block;
+    padding: 15px 20px;
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+
+}
+
+@media(max-width:768px){
+
+}
+
+header label{
+    display: block;
+}
+
+
+.menu { 
+    position: absolute;
+    background: #485757;
+    width: 70%;
+    margin-left: 70%;
+    transition:all 0.5s;
+}
+
+
+
+.menu ul{
+    flex-direction: column;
+}
+
+.menu li {
+    border-top: 1px solid rgb(249, 249, 249);
+}
+
+#btn-menu:checked- .menu{
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+}
+
+h1{
+
+    text-shadow: none;
+    background-color: rgb(231, 231, 231);
+ margin: auto;
+}
+
+

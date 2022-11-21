@@ -1,0 +1,102 @@
+/* para editar con css se toma en cuenta los class */
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0;
+    font-family:sans-serif ;
+    background-color: #2F2B2A;
+    /* color: #3333; */
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    /* color: #00ACE8; */
+}
+
+
+
+.form-register{
+    width: 100%;
+    max-width: 490px;
+    margin:auto;
+    background: rgb(66, 62, 62);
+    border-radius: 7px;
+
+
+}
+.form__titulo{
+background: rgb(100, 91, 91);
+color: white;
+padding: 20px;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 7px;
+border-bottom: 5px solid rgb(77, 66, 66);
+}
+
+.contenedor-inputs{
+    padding: 10px 30 ;
+    /* usaremos el codigo para acomodar el formulario */
+
+    padding: 10px 30 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+input{
+    margin-bottom:  15px; 
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1 px solid darkgray ;
+
+
+}
+
+
+.input-48{
+    width: 48%;
+    padding: 15px;
+}
+
+.imput-100{
+    width: 48%;
+}
+
+/* editar el boton */
+
+.btn-enviar{
+    background: rgb(99, 99, 114);
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+
+}
+
+.form__link{
+width: 100%;
+margin: 7px;
+text-align: center;
+font-size: 14px;
+
+
+}
+
+button{
+    color: #fff;
+    background: white;
+}

@@ -1,0 +1,106 @@
+/* para editar con css se toma en cuenta los class */
+
+*{
+    box-sizing: border-box;
+}
+
+button{
+    background-color: rgb(56, 79, 100);
+    margin: auto;
+}
+
+
+body{
+    margin:0;
+    font-family:sans-serif ;
+    background-color: rgb(87, 74, 74);
+    background-image:"https://img2.freepng.es/20180618/xgc/kisspng-customer-service-customer-support-technical-suppor-customer-service-representative-5b284f56377882.2689096915293684062272.jpg" ;
+    /* color: #3333; */
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    /* color: #00ACE8; */
+}
+
+
+
+.form-register{
+    width: 100%;
+    max-width: 490px;
+    margin:auto;
+    background: rgb(66, 62, 62);
+    border-radius: 7px;
+
+
+}
+.form__titulo{
+background: rgb(100, 91, 91);
+color: white;
+padding: 20px;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 7px;
+border-bottom: 5px solid rgb(77, 66, 66);
+}
+
+.contenedor-inputs{
+    padding: 10px 30 ;
+    /* usaremos el codigo para acomodar el formulario */
+
+    padding: 10px 30 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+input{
+    margin-bottom:  15px; 
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1 px solid darkgray ;
+
+
+}
+
+
+.input-48{
+    width: 48%;
+    padding: 15px;
+}
+
+.imput-100{
+    width: 48%;
+    padding: 15px;
+}
+
+/* editar el boton */
+
+.btn-enviar{
+    background: rgb(91, 91, 116);
+    color: #fff;
+    margin:center;
+    /* padding: ; */
+    /* cursor: pointer; */
+ 
+    
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+
+}
+
+.form__link{
+width: 100%;
+margin: 7px;
+text-align: center;
+font-size: 14px;
+
+
+}
+
